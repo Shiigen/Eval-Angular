@@ -1,27 +1,11 @@
-# Eval
+<h1>Réponses éval</h1>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.0.
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+<p>Question 1 : import { HttpClient} from "@angular/common/http";</p>
+<p>Question 2 : Quand la valeur du compteur est en dessous de 0 il lui affecte la classe Red à la division actuelle</p>
+<p>Question 3 : Oui, il faut effectué npm i (npm install) à la racine du projet en question</p>
+<p>Question 4 : Let est une variable et const défini une constante. let ou une variable peut etre réutiliser sur notre code alors qu'une constante ne changeras pas d'affectation</p>
+<p>Question 5 : HTML qui permet l'affichage sur le componant actuel. Le SCSS pour le design du componant actuel. Le spec.ts sert à composer les componant Angular et les balises app-component pour le HTML? Et le app-routing sert à créer des path</p>
+<p>Question 6 : Lorsque l'ont clique sur le bouton il effectuera la fonction superFonctionDeClick()</p>
+<p>Question 7 : ng g c "nom du componant" ou alors ng generate componant "Nom du componant"</p>
+<p>Question 8 : Les 3 méthodes de visibilités sont : Private, Public, Protected
+. Private sert à être utilisé uniquement sur la classe et pas ailleur. Public peut-être utilisé partout et Protected est comme le Private mais il peux quand même être accéder à une classe dérivé.</p>

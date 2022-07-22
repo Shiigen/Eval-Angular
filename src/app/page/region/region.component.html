@@ -1,0 +1,19 @@
+<body>
+<h2 class="titleh2">Région</h2>
+<br>
+<table class="table">
+  <thead>
+  <tr>
+    <th class="ent1" scope="col">Nom</th>
+    <th class="ent2" scope="col">Code</th>
+  </tr>
+  </thead>
+  <tbody>
+ <tr *ngFor="let region of arrayRegion">
+   <td class="nom">{{region.nom}}</td>
+   <td class="code">{{region.code}}</td>
+ </tr>
+  </tbody>
+</table>
+<body>
+

@@ -1,0 +1,20 @@
+<body>
+<h2 class="titleh2">Département</h2>
+<br>
+<table class="table">
+  <thead>
+  <tr>
+    <th class="ent1" scope="col">Nom</th>
+    <th class="ent2" scope="col">Code</th>
+    <th class="ent3" scope="col">Code Région</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr *ngFor="let departement of arrayDepartement">
+    <td class="nom">{{departement.nom}}</td>
+    <td class="code">{{departement.code}}</td>
+    <td class="coderegion">{{departement.codeRegion}}</td>
+  </tr>
+  </tbody>
+</table>
+<body>
